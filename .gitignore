@@ -1,0 +1,32 @@
+# ----------------------------------------
+# 1. DATASETS & RAW INPUT
+# ----------------------------------------
+# Ignore the main directories containing images/data
+/train/
+/test/
+/validation/
+/data/
+/datasets/
+/best_emotion_model.pth
+/best_resnet18_emotion_model.pth
+# ----------------------------------------
+# 2. MODELS & LARGE OUTPUTS
+# ----------------------------------------
+# Ignore model weight files, which are large binaries
+*.pt                 # PyTorch state dict files (like 'best_emotion_model.pth')
+*.pth                # PyTorch files
+*.h5                 # Keras/TensorFlow model files (like 'model.h5')
+*.onnx
+
+# ----------------------------------------
+# 3. ENVIRONMENT & CACHE FILES
+# ----------------------------------------
+# Ignore Python virtual environment folders
+venv/
+.venv/
+environments/
+
+# Ignore PyTorch/Conda cache files
+__pycache__/
+*.egg-info/
+.DS_Store
