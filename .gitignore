@@ -8,7 +8,7 @@
 /data/
 /datasets/
 /best_emotion_model.pth
-/best_resnet18_emotion_model.pth
+# /best_resnet18_emotion_model.pth
 # ----------------------------------------
 # 2. MODELS & LARGE OUTPUTS
 # ----------------------------------------
