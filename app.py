@@ -59,9 +59,9 @@ def predict_emotion(model, image, class_to_idx):
         return emotion, confidence, probabilities[0].numpy()
 
 # streamlit UI
-st.set_page_config(page_title="Emotion Recognition", page_icon="😊", layout="wide")
+st.set_page_config(page_title="Expression Recognition", page_icon="😊", layout="wide")
 
-st.title("🎭 Facial Emotion Recognition")
+st.title("🎭 Facial Expression Classification using ResNet-18 Transfer Learning")
 st.write("Upload a facial image to detect the emotion using ResNet18")
 
 # load model
